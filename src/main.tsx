@@ -7,7 +7,7 @@ import App from './App'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <ColorModeScript></ColorModeScript>
+      <ColorModeScript initialColorMode={theme.config.initialColorMode}></ColorModeScript>
     <App />
     </ChakraProvider>
   </React.StrictMode>,
