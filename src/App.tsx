@@ -13,11 +13,11 @@ function App() {
 			<GridItem area={"nav"}>
 				<NavBar />
 			</GridItem>
-			<Show above="lg">
+			{/* <Show above="lg">
 				<GridItem area={"aside"} bg={"yellow"}>
 					aside
 				</GridItem>
-			</Show>
+			</Show> */}
 			<GridItem area={"main"} bg={"dodgerblue"}>
 				<GameGrid></GameGrid>
 			</GridItem>
